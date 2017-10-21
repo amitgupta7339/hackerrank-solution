@@ -1,0 +1,31 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int n; 
+    int m; 
+    scanf("%i %i", &n, &m);
+    int *arr=malloc(sizeof(int)*(m+1));
+    int sum=0;
+    for(int a0 = 0; a0 < n; a0++){
+        int id_number; 
+        int amount; 
+        scanf("%i %i", &id_number, &amount);
+        arr[id_number]=arr[id_number]+amount;
+        sum=sum+amount;
+    }
+    int Q,R;
+    Q=sum/m;
+    R=sum%m;
+    printf("1 %d\n",arr[1]-Q-R);
+    for(int a=2;a<=m;a++)
+    {
+        printf("%d %d\n",a,arr[a]-Q);
+    }
+    return 0;
+}
