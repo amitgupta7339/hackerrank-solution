@@ -1,0 +1,21 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int solve(char* opr) {
+    if(opr[1]==45)
+        return opr[0]-opr[2];
+    return (opr[0]+opr[2])%48;
+}
+
+int main() {
+    char* opr = (char *)malloc(512000 * sizeof(char));
+    scanf("%s", opr);
+    int result = solve(opr);
+    printf("%d\n", result);
+    return 0;
+}
