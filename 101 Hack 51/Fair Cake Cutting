@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    static long howManyToInvite(long A, long B, long a) {
+       double x=(double)A;
+        double y=(double)B;
+        double d=(double)(x/y);
+        double b=((double)a)/d;
+        long c=(long)b;
+        return c;
+        
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        long A = in.nextLong();
+        long B = in.nextLong();
+        long a = in.nextLong();
+        long b = howManyToInvite(A, B, a);
+        System.out.println(b);
+        in.close();
+    }
+}
