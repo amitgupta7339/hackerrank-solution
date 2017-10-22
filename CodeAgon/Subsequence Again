@@ -1,0 +1,36 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+char* subsequenceAgain(char* s, int k) {
+    int arr[26]={0};
+    int count=0;
+    int n=strlen(s);
+    for(int i=0;i<n;i++)
+        arr[s[i]-97]++;
+    char* t = (char *)malloc(512000 * sizeof(char));
+    int x=0;
+    for(int i=0;i<n;i++)
+    {
+        if(arr[s[i]-97]>=k)
+        {t[x]=s[i];
+           x++; 
+        }      
+    }
+    return t;
+}
+
+int main() {
+    char* s = (char *)malloc(512000 * sizeof(char));
+    scanf("%s", s);
+    int k; 
+    scanf("%i", &k);
+    int result_size;
+    char* result = subsequenceAgain(s, k);
+    printf("%s\n", result);
+    return 0;
+}
