@@ -1,0 +1,55 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    static String uglyOrBeautiful(int[] a) {
+        int n=a.length;
+        int count=1;
+        boolean flag=false;
+        for(int i=0;i<n;i++)
+        {if(a[i]>=1&&a[i]<=n)
+            continue;
+         else
+             return "Ugly"; 
+        }
+        int arr[]=new int[n+1];
+        for(int i=0;i<n;i++)
+        {
+            arr[a[i]]++;
+        }
+        for(int i=1;i<n+1;i++)
+        {
+            if(arr[i]!=1)
+            {
+                return "Ugly";
+            }
+        }
+        for(int i=0;i<n;i++)
+        {
+            if(a[i]!=count)
+                return "Beautiful";
+                count++;
+        }
+       
+                return "Ugly";
+    }
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int q = in.nextInt();
+        for(int a0 = 0; a0 < q; a0++){
+            int n = in.nextInt();
+            int[] a = new int[n];
+            for(int a_i = 0; a_i < n; a_i++){
+                a[a_i] = in.nextInt();
+            }
+            String result = uglyOrBeautiful(a);
+            System.out.println(result);
+        }
+        in.close();
+    }
+}
