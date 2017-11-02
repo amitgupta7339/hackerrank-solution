@@ -1,4 +1,4 @@
-The Node struct is defined as follows:
+/*The Node struct is defined as follows:
    struct Node {
       int data;
       Node* left;
