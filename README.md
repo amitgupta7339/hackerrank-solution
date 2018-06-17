@@ -6,7 +6,7 @@
  - Solve Me First [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Solve%20Me%20First)
  - Simple Array Sum [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Simple%20Array%20Sum)
  - Compare the Triplets [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Compare%20the%20Triplets)
- - A Very Big Sum [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/A Very Big Sum)
+ - A Very Big Sum [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/A%20Very%20Big%20Sum)
  - Diagonal Difference [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Diagonal%20Difference)
  - Plus Minus [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Plus%20Minus)
  - Staircase [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Staircase)
