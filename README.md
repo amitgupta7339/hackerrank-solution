@@ -20,6 +20,7 @@
  - 2D Array - DS [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/2D%20Array%20-%20DS)
  - Left Rotation [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/Left%20Rotation)
  - Sparse Arrays [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/Sparse%20Arrays)
+ - Array Manipulation [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/Array%20Manipulation)
  
 **Linked Lists**
  - Print the Elements of a Linked List [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Print%20the%20Elements%20of%20a%20Linked%20List)
