@@ -1,3 +1,3 @@
 # hackerrank-solution
-# My Solutions
-Algorithms
+## My Solutions
+**Algorithms**
