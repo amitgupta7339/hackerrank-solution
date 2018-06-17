@@ -22,19 +22,19 @@
  - Sparse Arrays [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/Sparse%20Arrays)
  
 **Linked Lists**
- - Print the Elements of a Linked List
- - Insert a Node at the Tail of a Linked List
- - Insert a node at the head of a linked list
- - Insert a node at a specific position in a linked list
- - Delete a Node
- - Print in Reverse
- - Reverse a linked list
- - Compare two linked lists
- - Merge two sorted linked lists
- - Get Node Value
- - Delete duplicate-value nodes from a sorted linked list
- - Cycle Detection
- - Find Merge Point of Two Lists
- - Inserting a Node Into a Sorted Doubly Linked List
- - Reverse a doubly linked list
+ - Print the Elements of a Linked List [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Print%20the%20Elements%20of%20a%20Linked%20List)
+ - Insert a Node at the Tail of a Linked List [Solution]
+ - Insert a node at the head of a linked list [Solution]
+ - Insert a node at a specific position in a linked list [Solution]
+ - Delete a Node [Solution]
+ - Print in Reverse [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Print%20in%20Reverse)
+ - Reverse a linked list [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Reverse%20a%20linked%20list)
+ - Compare two linked lists [Solution]
+ - Merge two sorted linked lists [Solution]
+ - Get Node Value [Solution]
+ - Delete duplicate-value nodes from a sorted linked list [Solution]
+ - Cycle Detection [Solution]
+ - Find Merge Point of Two Lists [Solution]
+ - Inserting a Node Into a Sorted Doubly Linked List [Solution]
+ - Reverse a doubly linked list [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Reverse%20a%20doubly%20linked%20list)
  
