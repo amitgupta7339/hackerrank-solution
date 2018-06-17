@@ -1,0 +1,65 @@
+/*
+  Merge two sorted lists A and B as one linked list
+  Node is defined as 
+  struct Node
+  {
+     int data;
+     struct Node *next;
+  }
+*/
+Node* MergeLists(Node *headA, Node* headB)
+{struct Node *temp=NULL;
+  struct Node *head=NULL;
+  struct Node *ptr=NULL;
+ if(headA==NULL)
+ {
+      head=headB;
+          ptr=head;
+         headB=headB->next;
+ }
+ else{
+ if(headA->data<headB->data)
+     {
+         head=headA;
+         headA=headA->next;
+         ptr=head;
+     }
+     else
+     {   head=headB;
+          ptr=head;
+         headB=headB->next;
+     }
+ }
+ while(headA!=NULL&&headB!=NULL)
+ {
+     if(headA->data<headB->data)
+     {
+         temp=headA;
+         headA=headA->next;
+         ptr->next=temp;
+         ptr=ptr->next;
+     }
+     else
+     {
+         temp =headB;
+         headB=headB->next;
+         ptr->next=temp;
+         ptr=ptr->next;
+     }
+ }
+ while(headA!=NULL)
+ {
+     temp=headA;
+         headA=headA->next;
+         ptr->next=temp;
+         ptr=ptr->next;
+ }
+ while(headB!=NULL)
+ {
+    temp =headB;
+         headB=headB->next;
+         ptr->next=temp;
+         ptr=ptr->next;
+ }
+ return head;
+}
