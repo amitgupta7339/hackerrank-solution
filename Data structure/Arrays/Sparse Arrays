@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       int N,Q;//number of strings,Q is Represent number of Query
+        Scanner sc=new Scanner(System.in);
+        N=sc.nextInt();
+        String a[]=new String [N];//array create
+        sc.nextLine();
+        for(int i=0;i<N;i++)//assign a strings
+        {
+            a[i]=sc.nextLine();
+        }
+        Q=sc.nextInt();
+        sc.nextLine();
+        for(int i=0;i<Q;i++)
+        {int count=0;
+            String s1=sc.nextLine();
+            for(int j=0;j<N;j++)
+            {
+                if(s1.equals(a[j]))
+                    count++;
+            }
+            System.out.println(count);
+        }     
+    }
+}
