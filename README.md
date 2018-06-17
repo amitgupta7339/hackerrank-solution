@@ -1,6 +1,6 @@
 # hackerrank-solution
 ## My Solutions
-**Algorithms**
+### Algorithms
 
 **Warmup:**
  - Solve Me First [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Solve%20Me%20First)
@@ -13,3 +13,4 @@
  - Mini-Max Sum [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Mini-Max%20Sum)
  - Birthday Cake Candles [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Birthday%20Cake%20Candles)
  - Time Conversion [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Time%20Conversion)
+### Data Structure
