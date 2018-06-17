@@ -20,3 +20,20 @@
  - 2D Array - DS [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/2D%20Array%20-%20DS)
  - Left Rotation [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/Left%20Rotation)
  - Sparse Arrays [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Arrays/Sparse%20Arrays)
+**Linked Lists**
+ - Print the Elements of a Linked List
+ - Insert a Node at the Tail of a Linked List
+ - Insert a node at the head of a linked list
+ - Insert a node at a specific position in a linked list
+ - Delete a Node
+ - Print in Reverse
+ - Reverse a linked list
+ - Compare two linked lists
+ - Merge two sorted linked lists
+ - Get Node Value
+ - Delete duplicate-value nodes from a sorted linked list
+ - Cycle Detection
+ - Find Merge Point of Two Lists
+ - Inserting a Node Into a Sorted Doubly Linked List
+ - Reverse a doubly linked list
+ 
