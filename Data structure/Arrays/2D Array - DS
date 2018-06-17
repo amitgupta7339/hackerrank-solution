@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int arr[][] = new int[6][6];
+        int max=-100;
+        for(int arr_i=0; arr_i < 6; arr_i++){
+            for(int arr_j=0; arr_j < 6; arr_j++){
+                arr[arr_i][arr_j] = in.nextInt();
+            }
+        }
+        for(int arr_i=0; arr_i < 4; arr_i++){
+            for(int arr_j=0; arr_j < 4; arr_j++){
+                int sum=0;
+                for(int i=0;i<3;i++)
+                {
+                    for(int j=0;j<3;j++)
+                    {if((i==1&&j==0)||(i==1&&j==2))
+                        continue;
+                        sum=arr[arr_i+i][arr_j+j]+sum;
+                    }
+                }
+                if(sum>max)
+                    max=sum;
+            }
+        }
+       System.out.print(max); 
+    }
+}
