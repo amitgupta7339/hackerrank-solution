@@ -15,15 +15,15 @@
  - Time Conversion [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Time%20Conversion)
  
  **Bit Manipulation**
- - Lonely Integer [Solution]
- - Maximizing XOR [Solution]
- - Counter game [Solution]
- - Xor-sequence [Solution]
- - Sum vs XOR [Solution]
- - The Great XOR [Solution]
- - Flipping bits [Solution]
- - Sansa and XOR [Solution]
- - Cipher [Solution]
+ - Lonely Integer [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Lonely%20Integer)
+ - Maximizing XOR [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Maximizing%20XOR)
+ - Counter game [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Counter%20game)
+ - Xor-sequence [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Xor-sequence)
+ - Sum vs XOR [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Sum%20vs%20XOR)
+ - The Great XOR [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/The%20Great%20XOR)
+ - Flipping bits [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Flipping%20bits)
+ - Sansa and XOR [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Sansa%20and%20XOR)
+ - Cipher [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Bit%20Manipulation/Cipher)
 ## Data Structure
 
 **Arrays**
