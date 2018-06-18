@@ -13,6 +13,17 @@
  - Mini-Max Sum [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Mini-Max%20Sum)
  - Birthday Cake Candles [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Birthday%20Cake%20Candles)
  - Time Conversion [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Warmup/Time%20Conversion)
+ 
+ **Bit Manipulation**
+ - Lonely Integer [Solution]
+ - Maximizing XOR [Solution]
+ - Counter game [Solution]
+ - Xor-sequence [Solution]
+ - Sum vs XOR [Solution]
+ - The Great XOR [Solution]
+ - Flipping bits [Solution]
+ - Sansa and XOR [Solution]
+ - Cipher [Solution]
 ## Data Structure
 
 **Arrays**
