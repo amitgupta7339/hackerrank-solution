@@ -1,0 +1,68 @@
+//JAVA
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    // Complete the cipher function below.
+    static String cipher(int k, String s) {
+        
+        int n=s.length();
+        int N=n+1-k;
+        int i=0;
+        int xor=0;
+        int[] a=new int[N];
+        while(i<k-1){
+            if(i==0){
+                a[i]=Integer.parseInt(String.valueOf(s.charAt(n-1-i)));
+                xor=Integer.parseInt(String.valueOf(s.charAt(n-1-i)));
+            }
+            else{
+                a[i]=xor^Integer.parseInt(String.valueOf(s.charAt(n-1-i)));
+                xor=xor^a[i];
+            }
+            i++;
+        }
+        while(i<N){
+            a[i]=xor^Integer.parseInt(String.valueOf(s.charAt(n-1-i)));
+            xor=xor^a[i-k+1];
+            xor=xor^a[i];
+            i++;
+        }
+        i=0;
+        StringBuffer ch=new StringBuffer();
+        while(i<N){
+            ch.append(a[N-i-1]);
+            i++;
+        }
+     return ch.toString();
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) throws IOException {
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        String[] nk = scanner.nextLine().split(" ");
+
+        int n = Integer.parseInt(nk[0]);
+
+        int k = Integer.parseInt(nk[1]);
+
+        String s = scanner.nextLine();
+
+        String result = cipher(k, s);
+
+        bufferedWriter.write(result);
+        bufferedWriter.newLine();
+
+        bufferedWriter.close();
+
+        scanner.close();
+    }
+}
