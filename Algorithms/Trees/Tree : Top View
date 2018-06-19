@@ -1,0 +1,40 @@
+ /*
+struct node
+{
+    int data;
+    node* left;
+    node* right;
+};
+
+*/
+
+void topView(node * root) {
+    int *arr=(int *)malloc(sizeof(int)*500);
+    struct node *temp=root;
+    int i=0,index;
+    while(temp!=NULL)
+    {
+        arr[i++]=temp->data;
+        temp=temp->left;
+    }
+    index=i;
+    temp=root->right;
+    while(temp!=NULL)
+    {
+      arr[i++]=temp->data;
+        temp=temp->right;  
+    }
+    int k=index-1;
+    while(k>=0)
+    {
+        printf("%d ",arr[k]);
+        k--;
+    }
+    index;
+    while(index<i)
+    {
+        printf("%d ",arr[index]);
+        index++;
+    }
+}
+
