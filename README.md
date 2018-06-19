@@ -49,4 +49,15 @@
  - Find Merge Point of Two Lists [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Find%20Merge%20Point%20of%20Two%20Lists)
  - Inserting a Node Into a Sorted Doubly Linked List [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Inserting%20a%20Node%20Into%20a%20Sorted%20Doubly%20Linked%20List)
  - Reverse a doubly linked list [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Reverse%20a%20doubly%20linked%20list)
- 
+
+**Trees**
+ - Tree: Preorder Traversal [Solution]
+ - Tree: Postorder Traversal [Solution]
+ - Tree: Inorder Traversal [Solution]
+ - Tree: Height of a Binary Tree [Solution]
+ - Tree : Top View [Solution]
+ - Tree: Level Order Traversal [Solution]
+ - Binary Search Tree : Insertion [Solution]
+ - Tree: Huffman Decoding [Solution]
+ - Binary Search Tree : Lowest Common Ancestor [Solution]
+ - Is This a Binary Search Tree? [Solution]
