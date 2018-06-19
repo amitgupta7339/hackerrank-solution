@@ -51,13 +51,13 @@
  - Reverse a doubly linked list [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Data%20structure/Linked%20Lists/Reverse%20a%20doubly%20linked%20list)
 
 **Trees**
- - Tree: Preorder Traversal [Solution]
- - Tree: Postorder Traversal [Solution]
- - Tree: Inorder Traversal [Solution]
- - Tree: Height of a Binary Tree [Solution]
- - Tree : Top View [Solution]
- - Tree: Level Order Traversal [Solution]
- - Binary Search Tree : Insertion [Solution]
- - Tree: Huffman Decoding [Solution]
- - Binary Search Tree : Lowest Common Ancestor [Solution]
- - Is This a Binary Search Tree? [Solution]
+ - Tree: Preorder Traversal [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Tree:%20Preorder%20Traversal)
+ - Tree: Postorder Traversal [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Tree:%20Postorder%20Traversal)
+ - Tree: Inorder Traversal [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Tree:%20Inorder%20Traversal)
+ - Tree: Height of a Binary Tree [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Tree:%20Height%20of%20a%20Binary%20Tree)
+ - Tree : Top View [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Tree%20:%20Top%20View)
+ - Tree: Level Order Traversal [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Tree:%20Level%20Order%20Traversal)
+ - Binary Search Tree : Insertion [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Binary%20Search%20Tree%20:%20Insertion)
+ - Tree: Huffman Decoding [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Tree:%20Huffman%20Decoding)
+ - Binary Search Tree : Lowest Common Ancestor [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Binary%20Search%20Tree%20:%20Lowest%20Common%20Ancestor)
+ - Is This a Binary Search Tree? [Solution](https://github.com/amitgupta7339/hackerrank-solution/blob/master/Algorithms/Trees/Is%20This%20a%20Binary%20Search%20Tree%3F)
