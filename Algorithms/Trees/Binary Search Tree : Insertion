@@ -1,0 +1,48 @@
+/*
+Node is defined as 
+
+typedef struct node
+{
+   int data;
+   node * left;
+   node * right;
+}node;
+
+*/
+
+
+node * insert(node * root, int value) {
+bool flag=false;
+    struct node *temp=root;
+    struct node *new_node=(struct node *)malloc(sizeof(struct node));
+    new_node->data=value;
+    new_node->left=NULL;
+    new_node->right=NULL;
+    if(root==NULL)
+    {root=new_node;
+        return root;
+    }
+        
+    while(!flag)
+    {     
+        if(temp->data<value)
+            if(temp->right==NULL)
+            {
+                temp->right=new_node;
+                flag=true;
+            }
+          else
+            temp=temp->right;
+        else
+        {
+            if(temp->left==NULL)
+            {
+                temp->left=new_node;
+                flag=true;
+            }
+            else
+                temp=temp->left;
+        }     
+    }
+   return root;
+}
