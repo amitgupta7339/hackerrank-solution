@@ -1,0 +1,42 @@
+/* 
+The structure of the node is
+
+typedef struct node
+{
+    int freq;
+    char data;
+    node * left;
+    node * right;
+    
+}node;
+
+*/
+
+
+void decode_huff(node * root,string s)
+{int i=0;
+ struct node *temp=root;
+    while(i<s.length())
+    {
+        if(s[i]=='1')
+        {
+            temp=temp->right;
+            if(temp->data!='\0')
+            {
+                printf("%c",temp->data);
+                temp=root;
+            }
+        }
+        else
+        {
+            temp=temp->left;
+            if(temp->data!='\0')
+            {
+                printf("%c",temp->data);
+                temp=root;
+            }
+            
+        }
+        i++; 
+    }
+}
