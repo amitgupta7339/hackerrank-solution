@@ -1,0 +1,39 @@
+/* Hidden stub code will pass a root argument to the function below. Complete the function to solve the challenge. Hint: you may want to write one or more helper functions.  
+
+The Node struct is defined as follows:
+   struct Node {
+      int data;
+      Node* left;
+      Node* right;
+   }
+*/
+int number_of_nodes(Node *root)
+{
+    if(root==NULL)
+        return 0;
+    return 1+number_of_nodes(root->left)+number_of_nodes(root->right);
+}
+void inorder(Node *root,int* arr)
+{ 
+  static int i=0;
+ if(root==NULL)
+     return;
+ inorder(root->left,arr);
+    arr[i++]=root->data;
+ inorder(root->right,arr);
+    
+}
+   bool checkBST(Node* root) {
+       int x;
+       x=number_of_nodes(root);
+       //printf("%d",x);
+       int *arr=(int *)malloc(sizeof(int)*x);
+       
+       inorder(root,arr);
+       for(int i=0;i<x-1;i++)
+       {if(arr[i]>=arr[i+1])
+           return false;
+       }
+       
+       return true;    
+   }
